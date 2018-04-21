@@ -32,6 +32,11 @@ Different methods for installing packages in python
  ```bash
 conda install -c menpo opencv          (Version: 2.4.11)
 conda install progressbar
+
+# Tensorflow Installation
+conda create -n tensorflow pip python=3.5      # Creates a conda virtualenv with python3 
+pip install --ignore-installed --upgrade tensorflow    (Version: 1.7.0)
+conda install -c menpo opencv                          (Version: 3.3.1)
 ```
 <hr>
 
