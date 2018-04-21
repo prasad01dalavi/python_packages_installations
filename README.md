@@ -14,6 +14,7 @@ Different methods for installing packages in python
  pip install django 
  pip install django-cors-headers 
  pip install django-rest_framework 
+ pip install python-dateutil
  pip install paho-mqtt 
  pip install celery 
  pip install virtualenv 
