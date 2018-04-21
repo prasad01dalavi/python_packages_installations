@@ -34,6 +34,18 @@ conda install progressbar
 ```
 <hr>
 
+
+## Python2 (Linux):
+ ```bash
+sudo pip install tensorflow
+sudo apt-get install protobuf-compiler python-pil python-lxmlsudo 
+sudo pip install pillow
+sudo pip install lxml
+sudo pip install matplotlib
+protoc object_detection/protos/*.proto --python_out=.
+export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
+sudo pip install opencv-python
+ ```
 ## Python3 (Linux):
  ```bash
  sudo pip3 install opencv-python       (Version: 3.4.0)
@@ -51,13 +63,24 @@ conda install simplejson
 ```
 <hr>
 
+
+## Python2 (RPi):
+```bash
+sudo apt-get install python-opencv       (Version 2.4.9)
+```
+
 ## Python3 (RPi):
 ```bash
  # Tensorflow
  wget http://ci.tensorflow.org/view/Nightly/job/nightly-pi-python3/39/artifact/output-artifacts/tensorflow-1.4.0-cp34-none-any.whl
- sudo pip3 install ./tensorflow-1.4.0-cp34-none-any.whl
+ sudo pip3 install ./tensorflow-1.4.0-cp34-none-any.whl       (Version: 1.4.0)
+ 
  sudo pip3 install matplotlib
  sudo apt-get install python3-cairo
+ 
+ # Opencv3 on Python3
+ http://www.life2coding.com/install-opencv-3-4-0-python-3-raspberry-pi-3/
+ 
  ```
 
 
