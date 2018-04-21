@@ -24,6 +24,7 @@ Different methods for installing packages in python
  pip install patsy
  pip install statsmodels
  pip install pep8
+ pip install clarifai===2.1.0
  ```
  
  ## Python3 (Windows):
