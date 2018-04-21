@@ -37,7 +37,7 @@ conda install progressbar
 conda create -n tensorflow pip python=3.5      # Creates a conda virtualenv with python3 
 pip install --ignore-installed --upgrade tensorflow    (Version: 1.7.0)
 conda install -c menpo opencv                          (Version: 3.3.1)
-# Note: In windows Tensorflow can only be installed with Python3
+# Note: In windows, Tensorflow can only be installed with Python3
 ```
 <hr>
 
