@@ -24,6 +24,7 @@ Different methods for installing packages in python
  pip install statsmodels
  pip install pep8
  pip install clarifai===2.1.0
+ pip install flask
  ```
  
  ## Anaconda2 (Windows):
