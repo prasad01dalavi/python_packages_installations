@@ -3,7 +3,7 @@ Different methods for installing packages in python
 
 ## Python2 (Windows):
 
- ``` bash
+ ```bash
  pip install numpy 
  pip install pandas 
  pip install matplotlib 
@@ -18,19 +18,14 @@ Different methods for installing packages in python
  pip install paho-mqtt 
  pip install celery 
  pip install virtualenv 
- pip install 
+ pip install simplejson
+ pip install opencv-contrib-python
+ pip install scipy
+ pip install patsy
+ pip install statsmodels
+ pip install pep8
+ ```
  
- pip install 
- 
- pip install 
- 
- pip install 
- 
- pip install 
- 
- pip install 
- 
- 
- 
- 
+ ## Python3 (Windows):
+ ```bash
  
