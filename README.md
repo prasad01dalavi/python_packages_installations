@@ -32,6 +32,7 @@ Different methods for installing packages in python
 conda install -c menpo opencv          (Version: 2.4.11)
 conda install progressbar
 ```
+<hr>
 
 ## Python3 (Linux):
  ```bash
@@ -48,5 +49,16 @@ conda install -c dhaneshr opencv     (Version: 2.4.11)
 conda install progressbar
 conda install simplejson
 ```
+<hr>
+
+## Python3 (RPi):
+```bash
+ # Tensorflow
+ wget http://ci.tensorflow.org/view/Nightly/job/nightly-pi-python3/39/artifact/output-artifacts/tensorflow-1.4.0-cp34-none-any.whl
+ sudo pip3 install ./tensorflow-1.4.0-cp34-none-any.whl
+ sudo pip3 install matplotlib
+ sudo apt-get install python3-cairo
+ ```
+
 
  
