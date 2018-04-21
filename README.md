@@ -1,4 +1,4 @@
-# Python Packages Installations
+# Python Packages Installation
 Different methods for installing packages in python
 
 ## Python2 (Windows):
