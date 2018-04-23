@@ -16,7 +16,6 @@ Different methods for installing packages in python
  pip install django-rest_framework 
  pip install python-dateutil
  pip install paho-mqtt 
- pip install celery 
  pip install virtualenv 
  pip install simplejson
  pip install opencv-contrib-python     (Version: 3.4.0)
@@ -26,6 +25,8 @@ Different methods for installing packages in python
  pip install pep8
  pip install clarifai===2.1.0
  pip install flask
+ pip install celery==3.1.0
+ pip install sqlalchemy
  ```
  
  ## Anaconda2 (Windows):
