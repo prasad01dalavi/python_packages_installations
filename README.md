@@ -6,7 +6,7 @@ Different methods for installing packages in python
  pip install numpy 
  pip install pandas 
  pip install matplotlib 
- pip install sklean 
+ pip install sklearn 
  pip install urllib3 
  pip install requests 
  pip install Pillow 
