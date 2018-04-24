@@ -27,6 +27,7 @@ Different methods for installing packages in python
  pip install flask
  pip install celery==3.1.0
  pip install sqlalchemy
+ pip install gmplot
  ```
  
  ## Anaconda2 (Windows):
