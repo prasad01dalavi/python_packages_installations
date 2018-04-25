@@ -6,6 +6,7 @@ Different methods for installing packages in python
  pip install numpy 
  pip install pandas 
  pip install matplotlib 
+ pip install drawnow
  pip install sklearn 
  pip install urllib3 
  pip install requests 
@@ -28,6 +29,7 @@ Different methods for installing packages in python
  pip install celery==3.1.0
  pip install sqlalchemy
  pip install gmplot
+ pip install xlrd
  ```
  
  ## Anaconda2 (Windows):
