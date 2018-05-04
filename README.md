@@ -72,6 +72,26 @@ conda install -c dhaneshr opencv     (Version: 2.4.11)
 conda install progressbar
 conda install simplejson
 ```
+
+## Anaconda3 (Linux)
+```bash
+# Add conda to python2 path:
+export PATH=~/anaconda3/bin:$PATH
+
+# Tensorflow Installation:
+conda create -n tensorflow1 pip
+source activate tensorflow1
+pip install --ignore-installed --upgrade tensorflow-gpu
+pip install --ignore-installed --upgrade tensorflow
+
+conda install -c anaconda protobuf
+pip install pillow
+pip install lxml
+pip install jupyter
+pip install matplotlib
+pip install pandas
+pip install opencv-python
+```
 <hr>
 
 
@@ -93,6 +113,3 @@ sudo apt-get install python-opencv       (Version 2.4.9)
  http://www.life2coding.com/install-opencv-3-4-0-python-3-raspberry-pi-3/
  
  ```
-
-
- 
