@@ -30,6 +30,7 @@ Different methods for installing packages in python
  pip install sqlalchemy
  pip install gmplot
  pip install xlrd
+ pip install pylint
  ```
  
  ## Anaconda2 (Windows):
