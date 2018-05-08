@@ -26,6 +26,7 @@ Different methods for installing packages in python
  pip install pep8
  pip install clarifai===2.1.0
  pip install flask
+ pip install flask-sqlalchemy
  pip install celery==3.1.0
  pip install sqlalchemy
  pip install gmplot
@@ -57,6 +58,7 @@ sudo pip install matplotlib
 protoc object_detection/protos/*.proto --python_out=.
 export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
 sudo pip install opencv-python
+sudo apt-get install -y python-dev libmysqlclient-dev && sudo pip install mysqlclient
  ```
 ## Python3 (Linux):
  ```bash
