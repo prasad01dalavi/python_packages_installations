@@ -59,6 +59,8 @@ protoc object_detection/protos/*.proto --python_out=.
 export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
 sudo pip install opencv-python
 sudo apt-get install -y python-dev libmysqlclient-dev && sudo pip install mysqlclient
+sudo pip install flask
+sudo pip install flask-uploads --upgrade
  ```
 ## Python3 (Linux):
  ```bash
