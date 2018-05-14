@@ -34,6 +34,10 @@ Different methods for installing packages in python
  pip install pylint
  ```
  
+ Unofficial Windows Binaries for Python Extension Packages:
+ https://www.lfd.uci.edu/~gohlke/pythonlibs/#mysqlclient
+ 
+  
  ## Anaconda2 (Windows):
  ```bash
 conda install -c menpo opencv          (Version: 2.4.11)
